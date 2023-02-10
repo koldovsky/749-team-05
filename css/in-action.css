@@ -1,0 +1,67 @@
+.section__in-action {
+	padding: 24px;
+}
+.txt-block {
+	display: block;
+	background-color: blue;
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	transform: translate(-50%);
+	height: 6px;
+	width: 60px;
+	border-radius: 6px;}
+/* 
+.txt-block::after {
+	content: '';
+	position: absolute;
+	background-color: blue;
+	left: -10px;
+	height: 6px;
+	width: 6px;
+	border-radius: 50px;
+}
+.txt-block::before {
+	content: '';
+	position: absolute;
+	background-color: blue;
+	right: -10px;
+	height: 6px;
+	width: 6px;
+	border-radius: 50px;
+} */
+.in-action__body {
+	display: flex;
+	justify-content: center;
+}
+.in-action__background {
+	position: relative;
+	background-image: url('/media/writing_on_the_desk.webp');
+	height: 429px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.in-action__icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 50px;
+	color: white;
+	fill: white;
+}
+
+@media (min-width: 768px) {
+	.in-action__background {
+		height: 469px;
+	}
+	.in-action__icon {
+		height: 70px;
+	}
+}
+@media (min-width: 992px) {
+	.in-action__background {
+		height: 511px;
+	}
+}
