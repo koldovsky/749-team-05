@@ -1,7 +1,7 @@
 .section__in-action {
 	padding: 24px;
 }
-.txt-block {
+/* .txt-block {
 	display: block;
 	background-color: blue;
 	position: absolute;
@@ -10,7 +10,7 @@
 	transform: translate(-50%);
 	height: 6px;
 	width: 60px;
-	border-radius: 6px;}
+	border-radius: 6px;} */
 /* 
 .txt-block::after {
 	content: '';
