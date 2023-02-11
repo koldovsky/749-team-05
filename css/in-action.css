@@ -20,8 +20,8 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	height: 50px;
-	color: white;
-	fill: white;
+	color: var(--play-icon-color);
+	fill: var(--play-icon-color);
 }
 
 @media (min-width: 768px) {
