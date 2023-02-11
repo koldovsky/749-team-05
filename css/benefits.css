@@ -31,7 +31,6 @@
 	overflow-wrap: break-word;
 }
 
-
 @media (min-width: 768px) {
 	.benefits__cards {
 		flex-direction: row;
