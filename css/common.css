@@ -16,6 +16,7 @@
     --text-color: rgb(86, 116, 145);
     --subtext-color: rgb(0, 95, 183);
     --button-text-color: rgb(255, 255, 255);
+    --play-icon-color: white;
     scroll-behavior: smooth;
 }
 
@@ -35,8 +36,14 @@ h2 {
     font-weight: 800;
     color: var(--subtitle-color);
     text-align: center;
+    letter-spacing: 1.5px;
 }
-
+.devider-icon {
+    display: block;
+    margin: auto;
+    height: 18px;
+    width: 80px;
+    }
 
 
 
