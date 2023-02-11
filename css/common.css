@@ -17,6 +17,7 @@
     --subtext-color: rgb(0, 95, 183);
     --button-text-color: rgb(255, 255, 255);
     --play-icon-color: white;
+    --light-background-color: rgb(244, 244, 244);
     scroll-behavior: smooth;
 }
 
@@ -37,6 +38,12 @@ h2 {
     color: var(--subtitle-color);
     text-align: center;
     letter-spacing: 1.5px;
+}
+h3 {
+	font-size: 22px;
+	font-weight: 800;
+	letter-spacing: 1;
+	color: var(--subtitle-color);
 }
 .devider-icon {
     display: block;
