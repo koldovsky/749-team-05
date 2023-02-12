@@ -1,0 +1,224 @@
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__logo-container {
+    width: 201px;
+}
+
+.header__logo-container a {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo-element-cloudy {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    color: var(--subtext-color);
+    letter-spacing: 1px;
+}
+
+.header__logo-element-grou {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+.header__logo-element-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: var(--text-color);
+    line-height: 28px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.header__menu>li {
+    margin: 10px 5px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header__menu>li>a {
+    text-decoration: none;
+    color: var(--subtitle-color);
+}
+
+.header__menu>li>a:hover {
+    color: var(--title-color);
+}
+
+.header__menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 50px;
+    background-color: var(--title-color);
+    border-radius: 4px;
+}
+
+.header__menu-button>span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--button-text-color);
+}
+
+.header__banner {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../media/header_background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header__background-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgb(66 73 121 / 58%);
+    display: flex;
+    justify-content: center;
+}
+
+.header__banner-block {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 185px 0;
+    max-width: 1200px;
+    text-align: center;
+    /* word-break: break-all; */
+}
+
+.header__banner-text-first {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--button-text-color);
+}
+
+.header__tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.header__banner-text-last {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--button-text-color);
+}
+
+.header__banner-buttom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+    height: 50px;
+    background-color: var(--title-color);
+    border-radius: 4px;
+    margin-top: 50px;
+}
+
+.header__banner-buttom>span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--button-text-color);
+}
+
+@media (max-width: 325px) {
+    .header__banner-block {
+        padding: 340px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__banner-block {
+        padding: 215px 0;
+    }
+
+    .header__banner-text-first {
+        font-size: 39px;
+    }
+
+    .header__tittle {
+        font-size: 72px;
+    }
+
+    .header__banner-text-last {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__banner-block {
+        padding: 240px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .header__nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        padding: 30px 40px;
+    }
+
+    .header__menu {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0 15px;
+    }
+
+    .header__menu>li {
+        margin: 3px 20px;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .header__nav-breake {
+        flex-basis: 100%;
+        height: 0;
+    }
+}
+
+@media (min-width: 1137px) {
+    .header__nav {
+        padding: 30px 15px;
+    }
+
+    .header__nav-breake {
+        flex-basis: 0;
+        height: 0;
+    }
+}
