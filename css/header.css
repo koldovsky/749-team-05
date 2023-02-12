@@ -222,3 +222,13 @@
         height: 0;
     }
 }
+
+.header__menu-button:hover {
+    background-color: var(--subtext-color);
+    transition-delay: 0.2s;
+}
+
+.header__banner-buttom:hover {
+    background-color: var(--button-color-hover);
+    transition-delay: 0.2s;
+}
