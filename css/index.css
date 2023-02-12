@@ -1,6 +1,11 @@
 @import url(common.css);
 @import url(header.css);
+@import url(about.css);
 @import url(benefits.css);
 @import url(in-action.css);
+<<<<<<< HEAD
 @import url(social-icons.css);
 @import url(our-people.css)
+=======
+@import url(social-icons.css);
+>>>>>>> 0db1b9234b0595f42dd6d24fd64328b234a566b0
