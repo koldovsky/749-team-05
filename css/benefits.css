@@ -3,6 +3,7 @@
 }
 .benefits {
 	padding: 24px;
+	background-color: var(--light-background-color);
 }
 .benefits__card {
 	display: flex;
