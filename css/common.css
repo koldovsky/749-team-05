@@ -39,30 +39,38 @@ h2 {
     font-weight: 800;
     color: var(--subtitle-color);
     text-align: center;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.428px;
+    line-height: 40.8px;
 }
+
 h3 {
-	font-size: 22px;
-	font-weight: 800;
-	letter-spacing: 1px;
-	color: var(--subtitle-color);
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: var(--subtitle-color);
 }
+
 .devider-icon {
     display: block;
     margin: auto;
     height: 18px;
     width: 80px;
-    }
+}
 
 
 
 @media (min-width: 768px) {
-	h2{
+    h2 {
         font-size: 38px;
+        letter-spacing: 1.596px;
+        line-height: 45.6px;
     }
 }
+
 @media (min-width: 992px) {
-	h2{
+    h2 {
         font-size: 42px;
+        letter-spacing: 1.764px;
+        line-height: 50.4px;
     }
 }
