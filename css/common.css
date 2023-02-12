@@ -20,6 +20,11 @@
     --light-background-color: rgb(244, 244, 244);
     --button-color-hover: rgb(51, 153, 248);
     --header-banner-text-color: rgb(255, 255, 255);
+    --social-icons-color: rgb(7, 131, 247);
+    --footer-main-text-color: rgb(255, 255, 255);
+    --footer-accent-text-color: rgb(86, 116, 145);
+    --footer-email-input-color: rgba(255, 255, 255, 0.11);
+    --footer-dark-background-color: rgb(18, 40, 60);
     scroll-behavior: smooth;
 }
 
