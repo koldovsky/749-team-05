@@ -19,7 +19,7 @@
     --play-icon-color: white;
     --light-background-color: rgb(244, 244, 244);
     --button-color-hover: rgb(51, 153, 248);
-
+    --header-banner-text-color: rgb(255, 255, 255);
     scroll-behavior: smooth;
 }
 
