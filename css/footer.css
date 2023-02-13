@@ -112,7 +112,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px 20px;
     color: var(--footer-accent-text-color);
 }
 .footer__copyrights hr {
@@ -154,7 +154,7 @@
         width: 100%;
         justify-content:space-between;
         color: var(--footer-accent-text-color);
-        padding: 10px 20px;
+        padding: 10px 20px 20px;
     }
 }
 
