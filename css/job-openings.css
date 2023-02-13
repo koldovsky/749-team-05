@@ -50,3 +50,14 @@ h4 {
     display: block;
     padding: 20px;
 }
+
+.accordion-item__header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.accordion-item__header.active::after {
+    content: "\2212";
+}
