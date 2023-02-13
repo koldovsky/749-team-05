@@ -22,3 +22,31 @@
     margin-top: 25px;
     vertical-align: baseline;
 }
+
+.accordion-item__header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.9px;
+    color: var(--subtitle-color);
+    line-height: 31px;
+}
+
+.accordion-item__body-content {
+    text-align: left;
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: 'Valera Round', sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 22px;
+    overflow-wrap: break-word;
+}
+
+h4 {
+    color: var(--subtitle-color);
+}
+
+.accordion-item {
+    display: block;
+    padding: 20px;
+}
