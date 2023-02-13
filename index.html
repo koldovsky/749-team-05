@@ -231,9 +231,9 @@
 
     <!-- початок Наталя Невідома - (Quote) -->
     <div class="quote">
-      <div class="quote__wrap">
-        <div class="vertical__line"></div>
+      <div class="quote__wrap"> 
         <div class="content__wrap">
+          <div class="vertical__line">
           <div class="quote__icon">
             <span class="quoted">
               <img src="media/quoted_icon.svg" alt="quoted icon">
@@ -248,7 +248,8 @@
           </div>
         </div>
       </div>
-    </div><!-- провірити секцію -->
+      </div>
+    </div>
     <!-- кінець Наталя Невідома - (Quote) -->
 
     <!-- початок Мар'яна Марцинюк - (section-in-action) -->
@@ -448,23 +449,23 @@
       <div class="follow__text">
         <h2>Follow us</h2>
         <p>Join us to stay up-to-date on our latest opportunities</p>
-      </div>
-      <div class="follow__socials">
-        <a href="https://facebook.com/">
-          <svg class="fb-icon">
-            <use href="media/icon-facebook.svg#icon"></use>
-          </svg>
-        </a>
-        <a href="https://twitter.com/">
-          <svg class="tw-icon">
-            <use href="media/icon-twitter.svg#icon"></use>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/">
-          <svg class="lin-icon">
-            <use href="media/icon-linkedin.svg#icon"></use>
-          </svg>
-        </a>
+        <div class="follow__socials">
+          <a href="https://facebook.com/">
+            <svg class="sc-icons">
+              <use href="media/icon-facebook.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="https://twitter.com/">
+            <svg class="sc-icons">
+              <use href="media/icon-twitter.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/">
+            <svg class="sc-icons">
+              <use href="media/icon-linkedin.svg#icon"></use>
+            </svg>
+          </a>
+        </div>
       </div>
     </section><!-- Назар Клімович -->
     <!-- кінець Клімович Назар - (Follow) -->
@@ -479,21 +480,23 @@
       <p>Siddeley St.Docklands 7-23</p>
     </div>
     <div class="footer__nav">
-      <a href="#about" class="footer-nav-item">About</a>
-      <a href="#ourpeople" class="footer-nav-item">Our People</a>
-      <a href="#benefits" class="footer-nav-item">Benefits</a>
-      <a href="#jobopenings" class="footer-nav-item">Open Positions</a>
-      <a href="#ourvalues" class="footer-nav-item">Values</a>
-      <a href="#contacts_form" class="footer-nav-item">Apply</a>
+      <div class="footer__nav-team">
+        <a href="#about" class="footer__nav-item">About</a>
+        <a href="#ourpeople" class="footer__nav-item">Our People</a>
+        <a href="#benefits" class="footer__nav-item">Benefits</a>
+      </div>
+      <div class="footer__nav-job">
+        <a href="#jobopenings" class="footer__nav-item">Open Positions</a>
+        <a href="#ourvalues" class="footer__nav-item">Values</a>
+        <a href="#contacts_form" class="footer__nav-item">Apply</a>
+      </div>
     </div>
     <div class="footer__subscribe">
-      <div class="footer__subscribe-input">
+      <form class="footer__subscribe-form">
         <p>Subscribe to get the newest vacancies</p>
-        <input type="email" placeholder="Email*">
-      </div>
-      <div class="footer__subscribe-button">
-        <button>SUBSCRIBE</button>
-      </div>
+        <input class="footer__subscribe-email" placeholder="Email*" type="email" required>
+        <input class="footer__subscribe-button" type="submit" value="SUBSCRIBE">
+      </form>
     </div>
     <div class="footer__copyrights">
       <hr>
