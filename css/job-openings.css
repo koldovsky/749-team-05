@@ -1,3 +1,7 @@
+.jobopenings {
+    padding: 90px 0;
+}
+
 .job_openings__wrapper {
     display: flex;
     flex-direction: column;
