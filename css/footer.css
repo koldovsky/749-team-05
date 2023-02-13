@@ -1,44 +1,44 @@
-.footer__section {
+.footer {
+    background-color: var(--footer-dark-background-color);
+}
+.footer__container {
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
     gap: 40px;
-    background-color: var(--footer-dark-background-color);
-    color: var(--light-background-color);
     font-family: 'Montserrat', sans-serif;
-    padding: 80px 20px 30px;
+    color: var(--light-background-color);
     text-align: center;
+    padding: 80px 20px 30px;
+    
 }
-
-.footer__section h3 {
+.footer__container h3 {
     color: var(--footer-main-text-color);
     font-size: 24px;
     font-weight: 700;
 }
-
-.footer__section-contacts {
+.footer__contacts {
     display: flex;
     flex-direction: column;
     gap: 5px;
     font-size: 14px;
     letter-spacing: 1px;
 }
-.footer__section-contacts h4 {
+.footer__contacts h4 {
     color: var(--footer-main-text-color);
     font-weight: 300;
     padding-top: 40px;
 }
-
-.footer__section-contacts a {
+.footer__contacts a {
     color: var(--footer-accent-text-color);
     font-weight: 400;
 }
-
-.footer__section-contacts p {
+.footer__contacts p {
     color: var(--footer-accent-text-color);
     font-weight: 400;
 }
-
-.footer__section-nav {
+.footer__nav {
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -46,45 +46,37 @@
     gap: 30px;
     margin: 10px 5px;
 }
-
-.footer__section-nav-item {
+.footer__nav-item {
     width: 130px;
 }
-
-.footer__section-nav a {
+.footer__nav a {
     color: var(--footer-main-text-color);
     font-weight: 300;
     padding-bottom: 15px;
 }
-
-.footer__section-nav-team {
+.footer__nav-team {
     display:flex;
     flex-direction: column;
 }
-
-.footer__section-nav-job {
+.footer__nav-job {
     display:flex;
     flex-direction: column;
 }
-
-.footer__section-subscribe {
+.footer__subscribe {
     display:flex;
     flex-direction: column;
     gap: 20px;
 }
-
-.footer__section-subscribe p {
+.footer__subscribe p {
     color: var(--footer-accent-text-color);
     font-weight: 400;
 }
-
-.footer__section-subscribe-form {
+.footer__subscribe-form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.footer__section-subscribe-email {
+.footer__subscribe-email {
     text-align: center;
     width: 272px;
     height: 50px;
@@ -94,10 +86,8 @@
     border-style: none;
     background-color: var(--footer-email-input-color);
     color: var(--footer-main-text-color);
-
 }
-
-.footer__section-subscribe-button {
+.footer__subscribe-button {
     width: 272px;
     height: 50px;
     background-color: var(--title-color);
@@ -108,8 +98,9 @@
     font-size: 14px;
     color: var(--button-text-color);
 }
-
 .footer__copyrights {
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     background-color: var(--footer-dark-background-color);
@@ -117,7 +108,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
-
 .footer__copyrights-spans {
     display: flex;
     flex-direction: column;
@@ -125,7 +115,6 @@
     padding: 10px;
     color: var(--footer-accent-text-color);
 }
-
 .footer__copyrights hr {
     border: none;
     width: 85%;
@@ -135,7 +124,7 @@
 }
 
 @media (min-width: 768px) {
-    .footer__section {
+    .footer__container {
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -143,28 +132,22 @@
         align-items: flex-start;
         gap: 0;
     }
-
-    .footer__section-nav {
+    .footer__nav {
         display: flex;
         flex-direction: row;
     }
-
-    .footer__section-subscribe {
+    .footer__subscribe {
         width: 250px;
     }
-
-    .footer__section-subscribe-button {
+    .footer__subscribe-button {
         width: 230px;
     }
-
-    .footer__section-subscribe-email {
+    .footer__subscribe-email {
         width: 230px;
     }
-
     .footer__copyrights hr {
         width: 95%;
     }
-
     .footer__copyrights-spans {
         display: flex;
         flex-direction: row;
@@ -176,29 +159,25 @@
 }
 
 @media (min-width: 992px) {
-    .footer__section-nav { 
+    .footer__nav { 
         gap: 50px;
     }
-
     .footer__copyrights hr {
         width: calc(100% - 40px);
     }
-    
-    .footer__section-subscribe {
+    .footer__subscribe {
         width: 272px;
     }
-
-    .footer__section-subscribe-button {
+    .footer__subscribe-button {
         width: 272px;
     }
-
-    .footer__section-subscribe-email {
+    .footer__subscribe-email {
         width: 272px;
     }
 }
 
 @media (min-width: 1000px) {
-    .footer__section-nav { 
-        gap: 80px;
+    .footer__nav { 
+        gap: 90px;
     }
 }
