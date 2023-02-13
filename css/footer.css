@@ -138,7 +138,7 @@
     .footer__section {
         display: flex;
         flex-direction: row;
-        width: calc(100% + 20px);
+        width: 100%;
         justify-content:space-between;
         align-items: flex-start;
         gap: 0;
