@@ -1,89 +1,90 @@
-.footer {
+.footer__section {
     display: flex;
     flex-direction: column;
     gap: 40px;
     background-color: var(--footer-dark-background-color);
     color: var(--light-background-color);
     font-family: 'Montserrat', sans-serif;
-    padding: 80px 24px 30px;
+    padding: 80px 20px 30px;
     text-align: center;
 }
 
-.footer h3 {
+.footer__section h3 {
     color: var(--footer-main-text-color);
     font-size: 24px;
     font-weight: 700;
 }
 
-.footer__contacts {
+.footer__section-contacts {
     display: flex;
     flex-direction: column;
     gap: 5px;
     font-size: 14px;
     letter-spacing: 1px;
 }
-.footer__contacts h4 {
+.footer__section-contacts h4 {
     color: var(--footer-main-text-color);
     font-weight: 300;
     padding-top: 40px;
 }
 
-.footer__contacts a {
+.footer__section-contacts a {
     color: var(--footer-accent-text-color);
     font-weight: 400;
 }
 
-.footer__contacts p {
+.footer__section-contacts p {
     color: var(--footer-accent-text-color);
     font-weight: 400;
 }
 
-.footer__nav {
+.footer__section-nav {
     display:flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Varela Round', sans-serif;
     gap: 30px;
     margin: 10px 5px;
 }
 
-.footer__nav-item {
+.footer__section-nav-item {
     width: 130px;
 }
 
-.footer__nav a {
+.footer__section-nav a {
     color: var(--footer-main-text-color);
     font-weight: 300;
-    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.footer__nav-team {
+.footer__section-nav-team {
     display:flex;
     flex-direction: column;
 }
 
-.footer__nav-job {
+.footer__section-nav-job {
     display:flex;
     flex-direction: column;
 }
 
-.footer__subscribe {
+.footer__section-subscribe {
     display:flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.footer__subscribe p {
+.footer__section-subscribe p {
     color: var(--footer-accent-text-color);
     font-weight: 400;
 }
 
-.footer__subscribe {
+.footer__section-subscribe-form {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    align-items: center;
 }
 
-.footer__subscribe-email {
+.footer__section-subscribe-email {
     text-align: center;
     width: 272px;
     height: 50px;
@@ -96,7 +97,7 @@
 
 }
 
-.footer__subscribe-button {
+.footer__section-subscribe-button {
     width: 272px;
     height: 50px;
     background-color: var(--title-color);
@@ -111,15 +112,94 @@
 .footer__copyrights {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    background-color: var(--footer-dark-background-color);
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+}
+
+.footer__copyrights-spans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
     color: var(--footer-accent-text-color);
 }
 
 .footer__copyrights hr {
     border: none;
+    width: 85%;
     height: 1px;
     background: var(--footer-accent-text-color);
     margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .footer__section {
+        display: flex;
+        flex-direction: row;
+        width: calc(100% + 20px);
+        justify-content:space-between;
+        align-items: flex-start;
+        gap: 0;
+        padding-right: 40px;
+    }
+
+    .footer__section-nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer__section-subscribe {
+        width: 250px;
+    }
+
+    .footer__section-subscribe-button {
+        width: 230px;
+    }
+
+    .footer__section-subscribe-email {
+        width: 230px;
+    }
+
+    .footer__copyrights hr {
+        width: 95%;
+    }
+
+    .footer__copyrights-spans {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content:space-between;
+        color: var(--footer-accent-text-color);
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer__section-nav { 
+        gap: 50px;
+    }
+
+    .footer__copyrights hr {
+        width: calc(100% - 40px);
+    }
+    
+    .footer__section-subscribe {
+        width: 272px;
+    }
+
+    .footer__section-subscribe-button {
+        width: 272px;
+    }
+
+    .footer__section-subscribe-email {
+        width: 272px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footer__section-nav { 
+        gap: 80px;
+    }
 }
