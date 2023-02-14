@@ -1,11 +1,14 @@
 .follow__text {
-    padding: 90px 0px;
+    max-width: 1200px;
+    margin: auto;
     text-align: center;
+    padding: 90px 0px;
 }
 
 .follow__text h2 {
     font-weight: 700;
 }
+
 .follow__text p {
     color: var(--text-color);
     font-family: 'Montserrat', sans-serif;
@@ -21,7 +24,7 @@
 
 .sc-icons {
     fill: var(--social-icons-color);
+    margin: 0px 12px;
     width: 30px;
     height: 30px;
-    margin: 0px 12px;
 }
