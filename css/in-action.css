@@ -1,0 +1,50 @@
+.section__in-action {
+	padding: 24px;
+}
+.in-action__header {
+	padding: 65px;
+}
+.in-action__body {
+	display: flex;
+	justify-content: center;
+	padding: 65px;
+}
+.in-action__background {
+	position: relative;
+	background-image: url('../media/writing_on_the_desk.webp');
+	height: 429px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.in-action__icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 50px;
+	color: var(--play-icon-color);
+	fill: var(--play-icon-color);
+}
+
+
+
+@media (min-width: 768px) {
+	.in-action__background {
+		height: 469px;
+	}
+	.in-action__icon {
+		height: 70px;
+	}
+	.benefits__cards {
+		flex-direction: row;
+	}
+}
+@media (min-width: 992px) {
+	.in-action__background {
+		height: 511px;
+	}
+	.benefits__card-body {
+		width: 300px;
+	}
+}
