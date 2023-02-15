@@ -7,106 +7,117 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Career page Website</title>
   <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/social-icons.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
   <!-- початок Микола Цар(Header) -->
   <header class="header">
-    <nav class="header__nav">
-      <a href="#" class="header__logo-container">
-        <p class="header__logo-element-cloudy">Cloudy</p>
-        <p class="header__logo-element-grou">Grou</p>
-        <p class="header__logo-element-p">p</p>
-      </a>
-      <div class="header__menu">
-        <div class="header__menu-block">
-          <a href="#about" class="header__menu-item">About</a>
-          <a href="#benefits" class="header__menu-item">Benefits</a>
-          <a href="#ourvalues" class="header__menu-item">Values</a>
-          <a href="#ourpeople" class="header__menu-item">Our People</a>
-          <a href="#jobopenings" class="header__menu-item">Open Positions</a>
-        </div>
-        <a href="#contacts_form" class="header__menu-apply-button">APPLY</a>
+    <nav class="header__nav container">
+      <div class="header__logo-container">
+        <a href="#">
+          <span class="header__logo-element-cloudy">Cloudy</span>
+          <span class="header__logo-element-grou">&nbsp;Grou</span>
+          <span class="header__logo-element-p">p</span>
+        </a>
       </div>
+      <ul class="header__menu">
+        <li class="header__menu-item"><a href="#about">About</a></li>
+        <li class="header__menu-item"><a href="#benefits">Benefits</a></li>
+        <li class="header__menu-item"><a href="#ourvalues">Values</a></li>
+        <li class="header__menu-item"><a href="#ourpeople">Our People</a></li>
+        <li class="header__menu-item"><a href="#jobopenings">Open Positions</a></li>
+        <li class="header__nav-breake"></li>
+        <li class="header__menu-item">
+          <a href="#contacts_form" class="header__menu-button">
+            <span>APPLY</span>
+          </a>
+        </li>
+      </ul>
     </nav>
     <div class="header__banner">
-      <div class="header__banner-text">
-        <p class="header__banner-text-first">Start your career in</p>
-        <h1 class="header__tittle">Cloudy Group</h1>
-        <p class="header__banner-text-last">We are the people who dream & do</p>
+      <div class="header__background-overlay">
+        <div class="header__banner-block">
+          <p class="header__banner-text-first">Start your career in</p>
+          <h1 class="header__tittle">Cloudy Group</h1>
+          <p class="header__banner-text-last">We are the people who dream & do</p>
+          <a href="#jobopenings" class="header__banner-buttom">
+            <span>BROWSE VACANCIES</span>
+          </a>
+        </div>
       </div>
-      <a href="#jobopenings" class="header__banner-buttom">BROWSE VACANCIES</a>
     </div>
   </header>
   <!-- кінець Микола Цар(Header) -->
   <main>
-    <!-- початок Мар'яна Микитишин - (About) -->
-    <section class="about" id="about">
-      <div class="divider"></div>
-      <h2 class="about__tittle">About Cloudy Group</h2>
-      <p class="about__text">The best customer experiences are built with Cloudy Group. We give organizations the tools
-        to understand their customers and engage with them in a more personal way. Our products are easy to use and
-        implement. Cloudy Group gives businesses the flexibility to move quickly, focus on innovation, and scale as
-        their business grows.</p>
+    <!-- початок Микола Цар - (About) -->
+    <section class="about container" id="about">
+      <div class="about__wrapper">
+        <img class="devider-icon" src="media/devider-icon.png" alt="devider icon">
+        <h2 class="about__tittle">About Cloudy Group</h2>
+        <p class="about__text">The best customer experiences are built with Cloudy Group. We give organizations the
+          tools
+          to understand their customers and engage with them in a more personal way. Our products are easy to use and
+          implement. Cloudy Group gives businesses the flexibility to move quickly, focus on innovation, and scale as
+          their business grows.</p>
+      </div>
     </section>
-    <!--кінець Мар'яна Микитишин - (About) -->
+    <!--кінець Микола Цар - (About) -->
 
-    <!-- початок Мар'яна Микитишин - (Benefits) -->
-    <section class="benefits" id="benefits">
-      <div class="divider"></div>
-      <h2 class="about__benefits">Benefits of working here</h2>
-
-      <div class="benefits__block">
-        <div class="icon__battery">
-          <img class="icon-battery" src="media/icon-battery.svg" alt="battery" height="100" width="100">
+    <!-- початок Мар'яна Марцинюк - (Benefits) -->
+    <section class="benefits container" id="benefits">
+      <div class="benefits__header">
+        <img class="devider-icon" src="media/devider-icon.png" alt="devider icon">
+        <h2>Benefits of working here</h2>
+      </div>
+      <div class="benefits__cards">
+        <div class="benefits__card">
+          <div class="benefits__icon">
+            <img class="benefits__card-icon buttery-icon" src="media/icon-battery.svg" alt="battery icon">
+          </div>
+          <div class="benefits__card-body">
+            <h3 class="benefits__card-title">Health and wellness</h3>
+            <p class='benefits__card-text'>Our health benefit is more than just a medical coverage for you and your
+              family. You
+              can go in for yoga or fitness classes and enjoy access to healthy produce, snacks, and a wellness discount
+              program.</p>
+          </div>
         </div>
-        <div class="benefits__block-item">
-          <h3 class="benefits__tittle">Health and wellness</h3>
-          <p class="benefins__text">Our health benefit is more than just a medical coverage for you and your family. You
-            can
-            go
-            in for yoga or fitness classes and enjoy access to healthy produce, snacks, and a wellness discount program.
-          </p>
+        <div class="benefits__card">
+          <div class="benefits__icon">
+            <img class="benefits__card-icon lamp-icon" src="media/icon-lamp.svg" alt="lamp icon">
+          </div>
+          <div class="benefits__card-body">
+            <h3 class="benefits__card-title">Learning and development</h3>
+            <p class='benefits__card-text'>Full-time employees are reimbursed with our education program when they
+              attend
+              a professional conference or take courses to develop new skills within their career.</p>
+          </div>
+        </div>
+        <div class="benefits__card">
+          <div class="benefits__icon">
+            <img class="benefits__card-icon clock-icon" src="media/icon-clock.svg" alt="clock icon">
+          </div>
+          <div class="benefits__card-body">
+            <h3 class="benefits__card-title">Rest and relaxation</h3>
+            <p class='benefits__card-text'>We understand that you have life outside of work. That means plenty of PTO
+              days
+              for full-time employees and comfy couches to change a scenery or get some rest from your desk.</p>
+          </div>
+        </div>
+        <div class="benefits__card">
+          <div class="benefits__icon">
+            <img class="benefits__card-icon planning-icon" src="media/icon-planning.svg" alt="planning icon">
+          </div>
+          <div class="benefits__card-body">
+            <h3 class="benefits__card-title">Planning for the future</h3>
+            <p class='benefits__card-text'> No matter what the occasion, our benefits package keeps you covered — with a
+              401K match, 16 weeks of maternity/paternity leave, disability, and life insurance.</p>
+          </div>
         </div>
       </div>
-
-      <div class="benefits__block">
-        <div class="icon__lamp">
-          <img class="icon-lmp" src="media/icon-lamp.svg" alt="lamp" height="100" width="100">
-        </div>
-        <div class="benefits__block-item">
-          <h3 class="benefits__tittle">Learning and development</h3>
-          <p class="benefins__text">Full-time employees are reimbursed with our education program when they attend a
-            professional conference or take courses to develop new skills within their career.
-          </p>
-        </div>
-      </div>
-
-      <div class="benefits__block">
-        <div class="icon__clock">
-          <img class="icon-clock" src="media/icon-clock.svg" alt="clock" height="100" width="100">
-        </div>
-        <div class="benefits__block-item">
-          <h3 class="benefits__tittle">Rest and relaxation</h3>
-          <p class="benefins__text">We understand that you have life outside of work. That means plenty of PTO days for
-            full-time employees and comfy couches to change a scenery or get some rest from your desk.
-          </p>
-        </div>
-      </div>
-
-      <div class="benefits__block">
-        <div class="icon__planning">
-          <img class="icon-planning" src="media/icon-planning.svg" alt="planning" height="100" width="100">
-        </div>
-        <div class="benefits__block-item">
-          <h3 class="benefits__tittle">Planning for the future</h3>
-          <p class="benefins__text">No matter what the occasion, our benefits package keeps you covered — with a 401K
-            match, 16 weeks of maternity/paternity leave, disability, and life insurance.</p>
-        </div>
-      </div>
-    </section><!-- перевірити секцію -->
-    <!-- кінець Мар'яна Микитишин - (Benefits) -->
+    </section>
+    <!-- кінець Мар'яна Марцинюк - (Benefits) -->
 
     <!-- початок Оксана Кулеба - (Workstyle) -->
     <section class="workstyle" id="workstyle"><!-- Оксана Кулеба -->
@@ -115,73 +126,68 @@
           <!--To Do: Icon (line)-->
           <h2 class="workstyle__tittle">You will love our workstyle</h2>
         </div>
-        <div> <!--Main content-->
-          <div><!--Content element-->
-            <img class="working-place-image" width="65" src="./media/working-place.jpg" alt="working-place-image">
-          </div>
-          <br>
-          <div><!--Content element-->
-            <img class="women-works-image" width="65" src="./media/women-works.jpg" alt="women-works-image">
-          </div>
-          <br>
-          <div><!--Content element-->
-            <img class="brainstorm-image" width="65" src="./media/brainstorm.jpeg" alt="brainstorm-image">
-          </div>
-          <br>
-          <div><!--Content element-->
-            <img class="meeting-image" width="65" src="./media/meeting.jpg" alt="meeting-image">
-          </div>
-          <br>
-          <div><!--Content element-->
-            <img class="man-works-image" width="65" src="./media/man-works.jpg" alt="man-works-image">
-          </div>
-          <br>
-          <div><!--Content element-->
-            <img class="team-image" width="65" src="./media/team.jpeg" alt="team-image">
+        <div style="display:flex; justify-content: center;">
+          <div class="image_wrapper"> <!--Main content-->
+            <div class="image-content"><!--Content element-->
+              <img class="working-place-image" width="280" src="./media/working-place.jpg" alt="working-place-image">
+            </div>
+            <br>
+            <div class="image-content"><!--Content element-->
+              <img class="women-works-image" width="280" src="./media/women-works.jpg" alt="women-works-image">
+            </div>
+            <br>
+            <div class="image-content"><!--Content element-->
+              <img class="brainstorm-image" width="280" src="./media/brainstorm.jpeg" alt="brainstorm-image">
+            </div>
+            <br>
+            <div class="image-content"><!--Content element-->
+              <img class="meeting-image" width="280" src="./media/meeting.jpg" alt="meeting-image">
+            </div>
+            <br>
+            <div class="image-content"><!--Content element-->
+              <img class="man-works-image" width="280" src="./media/man-works.jpg" alt="man-works-image">
+            </div>
+            <br>
+            <div class="image-content"><!--Content element-->
+              <img class="team-image" width="280" src="./media/team.jpeg" alt="team-image">
+            </div>
           </div>
         </div>
       </div>
       <div> <!--Header part-->
         <!--To Do: Icon (line)-->
-        <h2 class="workstyle__tittle">More Sweet Perks</h2>
+        <h2 class="workstyle__more">More Sweet Perks</h2>
       </div>
-      <div> <!--Main content-->
+      <!--Оксана Кулеба-->
+    </section>
+    <section class="more">
+      <div class="more"> <!--Main content-->
         <div class="team"><!--Content element-->
           <h5 class="people__title">Great team</h5>
         </div>
         <div class="lunch"><!--Content element-->
-          <img class="icon-lunch" src="./media/icon-lunch.svg" alt="icon-lunch">
           <h5 class="sweet__title">Free lunch</h5>
         </div>
         <div class="office"><!--Content element-->
-          <img class="icon-office" src="./media/icon-office.svg" alt="icon-office">
           <h5 class="sweet__title">Beautiful office</h5>
         </div>
         <div class="ball"><!--Content element-->
-          <img class="icon-ball" src="./media/icon-ball.svg" alt="icon-ball">
           <h5 class="sweet__title">Outdoor activities</h5>
         </div>
-      </div><!--Оксана Кулеба-->
-    </section>
-    <!-- кінець Оксана Кулеба - (Workstyle) -->
-
-    <!-- початок Оксана Кулеба - (More) -->
-    <section class="more">
-      <h2>Secton More under construction</h2>
-    </section><!-- добавити секцію -->
-    <!-- кінець Оксана Кулеба - (More) -->
+      </div>
+    </section><!-- Наталія Ворончак -->
 
     <!-- початок Микола Соколовський - (Ourvalues) -->
-    <section class="ourvalues" id="ourvalues"> 
+    <section class="ourvalues" id="ourvalues">
       <div class="divider"></div>
       <img class="devider-icon" src="media/devider-icon.png" alt="devider icon"
       <h2>Our Values</h2>
       <div class="passion">
-      <p class="header__passion">Passion</p>
-      <p class="header__passion-info">We are passionate about everything we do – about our products, our company,
-        and our industry.
-        It is not just about the job: we share a passion to bring fun to everyone in the world and be the best in
-        doing so.</p>
+        <p class="header__passion">Passion</p>
+        <p class="header__passion-info">We are passionate about everything we do – about our products, our company,
+          and our industry.
+          It is not just about the job: we share a passion to bring fun to everyone in the world and be the best in
+          doing so.</p>
       </div>
       <div class="unity-in-diversity">
         <p class="header__unity-in-diversity">Unity in Diversity</p>
@@ -222,41 +228,38 @@
     <!-- початок Наталя Невідома - (Quote) -->
     <div class="quote">
       <div class="quote__wrap">
-        <div class="vertical__line"></div>
         <div class="content__wrap">
-          <div class="quote__icon">
-            <span class="quoted">
-              <img src="media/quoted_icon.svg" alt="quoted icon">
-            </span>
-          </div>
-          <div class="quote__content">
-            <p class="quote__text">"I think the people that end up doing well here are just generally
-              passionate about being owners of their space and making the world a better place."</p>
-          </div>
-          <div class="quote__author">
-            <p class="author">Lorry Morengo, CEO</p>
+          <div class="vertical__line">
+            <div class="quote__icon">
+              <span class="quoted">
+                <img src="media/quoted_icon.svg" alt="quoted icon">
+              </span>
+            </div>
+            <div class="quote__content">
+              <p class="quote__text">"I think the people that end up doing well here are just generally
+                passionate about being owners of their space and making the world a better place."</p>
+            </div>
+            <div class="quote__author">
+              <p class="author">Lorry Morengo, CEO</p>
+            </div>
           </div>
         </div>
       </div>
-    </div><!-- провірити секцію -->
+    </div>
     <!-- кінець Наталя Невідома - (Quote) -->
 
     <!-- початок Мар'яна Марцинюк - (section-in-action) -->
-    <section class="section-in-action">
-      <div class="in-action-header">
+    <section class="section__in-action container">
+      <div class="in-action__header">
+        <img class="devider-icon" src="media/devider-icon.png" alt="devider icon">
         <h2>Cloudy Group in Action</h2>
       </div>
-      <div class="in-action-body">
-        <img src="media/writing_on_the_desk.webp" alt="man writing on the desk">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
-          viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" style="max-width:100%"
-          height="50px">
-          <g style="" fill="currentColor">
-            <circle fill="none" stroke="currentColor" stroke-width="6" stroke-miterlimit="10" cx="50" cy="49.998" r="47"
-              style=""></circle>
-            <polygon points="36,28 72,49.96 36,71.921  " style="" fill="currentColor"></polygon>
-          </g>
-        </svg>
+      <div class="in-action__body">
+        <div class="in-action__background">
+          <svg class="in-action__icon">
+            <use href="media/play-icon.svg#icon"></use>
+          </svg>
+        </div>
       </div>
     </section>
     <!-- кінець Мар'яна Марцинюк - (section-in-action) -->
@@ -354,36 +357,113 @@
 
     <!-- початок Наталія Ворончак - (Job) -->
     <section class="jobopenings" id="jobopenings">
-      <h2>Job Openings</h2>
-      <div class="accordion-body">
+      <div class="job_openings__wrapper">
+        <img class="devider-icon" src="media/devider-icon.png" alt="devider icon">
+        <h2>Job Openings</h2>
+        <div class="job_openings">We’re a company that’s changing up the traditional recruiting process,
+          our
+          own included. If you’re a good fit for one of our open roles, we’ll be reaching out to you.
+          If
+          you’re passionate about our mission and can’t wait to hear from us, let us know.</div>
         <div class="accordion">
-          <div class="job_openings">We’re a company that’s changing up the traditional recruiting process, our
-            own included. If you’re a good fit for one of our open roles, we’ll be reaching out to you. If
-            you’re passionate about our mission and can’t wait to hear from us, let us know.</div>
-          <hr>
-          <div class="container">
-            <div class="label">Community Operations & Support Specialist</div>
-            <div class="content">job description</div>
+          <div class="accordion-item">
+            <div class="accordion-item__header active">Community Operations & Support Specialist</div>
+            <br>
+            <div class="accordion-item__body">
+              <div class="accordion-item__body-content">
+                <h4>About the job</h4>
+                Cloudy Group’s core is a global community of expert software testers. Community team
+                helps to onboard, support and nurture our testers providing them meaningful career and
+                endless growth opportunities. Our ultimate vision is to give every tester an opportunity
+                to develop their professional skills and enjoy building a software testing career
+                feeling engaged and fulfilled.
+                <br>
+                <br>
+                <h4> Key responsibilities</h4>
+                - Providing professional help and support to our testers' community through monitoring
+                and engaging in relevant discussions and Q&A in our community communication channels
+                (e.g. Slack, Intercom, email).
+                <br>
+                - Contributing to the testers’ quality monitoring process and addressing any
+                performance-related concerns to ensure high quality of delivered testing results.
+                <br>
+                - Providing regular guidance to community members, organizing processes for efficient
+                two-way feedback.
+                <br>
+                - Mapping community know-how, creating knowledge base articles, sharing important
+                updates and news with community members.
+                <br>
+                - Supporting our QA team with project-based tester recruitment and management.
+                <br>
+                - Working closely together with Community, Product, QA, Finance and other teams to
+                support our testers' growth and development.
+                <br>
+                - Helping our Product Managers with gathering input for community-related product
+                development, including writing user stories and requirements for new features.
+                <br>
+                - Continually evaluating Testlio's internal and external processes and workflows.
+                Recommending possible improvements that will keep us moving in the right direction.
+                <br>
+
+                <br>
+                <h4>What do we expect from you?</h4>
+                - Excellent communicator with an ability to use both data and intuition to form
+                decisions.
+                <br>
+                - Being tech-savvy and fascinated with technology.
+                <br>
+                - Being able to request, collect, and analyze data to make data-driven decisions.
+                <br>
+                - Experience in client-facing communication - support, project management or similar
+                role.
+                <br>
+                - General understanding of software development lifecycle, preferably accompanied with a
+                degree in computer science or similar.
+                <br>
+                - Thriving in a fast-paced and challenging environment, being able to learn and adapt
+                quickly.
+                <br>
+                - Taking initiative, working independently and efficiently without close supervision.
+                <br>
+                - You have a desire to contribute to building the greatest global community of software
+                testers.
+                <br>
+                - You love working with people and have a passion to change the world.
+                <br>
+                - You #lovetesting. Hands-on experience in different areas of software testing is a
+                strong plus.
+                <br>
+              </div>
+            </div>
+            <br>
           </div>
-          <hr>
-          <div class="container">
-            <div class="label">Software Engineer</div>
-            <div class="content">job description</div>
+        </div>
+        <hr>
+        <div class="accordion-item">
+          <div class="accordion-item__header active">Software Engineer</div>
+          <div class="accordion-item__body">
+            <div class="accordion-item__body-content"></div>
           </div>
-          <hr>
-          <div class="container">
-            <div class="label">Enterprise Account Executive</div>
-            <div class="content">job description</div>
+        </div>
+        <hr>
+        <div class="accordion-item">
+          <div class="accordion-item__header active">Enterprise Account Executive</div>
+          <div class="accordion-item__body">
+            <div class="accordion-item__body-content"></div>
           </div>
-          <hr>
-          <div class="container">
-            <div class="label">QA Project Manager</div>
-            <div class="content">job description</div>
+        </div>
+        <hr>
+        <div class="accordion-item">
+          <div class="accordion-item__header active">QA Project Manager</div>
+          <div class="accordion-item__body">
+            <div class="accordion-item__body-content"> </div>
           </div>
-          <hr>
-          <div class="container">
-            <div class="label">Test Lead</div>
-            <div class="content">job description</div>
+        </div>
+        <hr>
+        <div class="accordion-item">
+          <div class="accordion-item__header active">Test Lead</div>
+          <div class="accordion-item__body">
+            <div class="accordion-item__body-content"></div>
           </div>
         </div>
       </div>
@@ -437,60 +517,71 @@
       <div class="follow__text">
         <h2>Follow us</h2>
         <p>Join us to stay up-to-date on our latest opportunities</p>
-      </div>
-      <div class="follow__socials">
-        <a href="https://facebook.com/">
-          <svg class="fb-icon">
-            <use href="media/icon-facebook.svg#icon"></use>
-          </svg>
-        </a>
-        <a href="https://twitter.com/">
-          <svg class="tw-icon">
-            <use href="media/icon-twitter.svg#icon"></use>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/">
-          <svg class="lin-icon">
-            <use href="media/icon-linkedin.svg#icon"></use>
-          </svg>
-        </a>
+        <div class="follow__socials">
+          <a href="https://facebook.com/">
+            <svg class="sc-icons">
+              <use href="media/icon-facebook.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="https://twitter.com/">
+            <svg class="sc-icons">
+              <use href="media/icon-twitter.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/">
+            <svg class="sc-icons">
+              <use href="media/icon-linkedin.svg#icon"></use>
+            </svg>
+          </a>
+        </div>
       </div>
     </section><!-- Назар Клімович -->
     <!-- кінець Клімович Назар - (Follow) -->
   </main>
   <!-- початок Клімович Назар - (Footer)Клімович Назар - (Footer) -->
   <footer class="footer">
-    <div class="footer__contacts">
-      <h3>Cloudy Group</h3>
-      <h4>Call us or send an e-mail:</h4>
-      <a class="footer__phone" href="tel:+12456778833">+124 567 788 33</a>
-      <a class="footer__email" href="mailto:cloudygroup@email.com">cloudygroup@email.com</a>
-      <p>Siddeley St.Docklands 7-23</p>
-    </div>
-    <div class="footer__nav">
-      <a href="#about" class="footer-nav-item">About</a>
-      <a href="#ourpeople" class="footer-nav-item">Our People</a>
-      <a href="#benefits" class="footer-nav-item">Benefits</a>
-      <a href="#jobopenings" class="footer-nav-item">Open Positions</a>
-      <a href="#ourvalues" class="footer-nav-item">Values</a>
-      <a href="#contacts_form" class="footer-nav-item">Apply</a>
-    </div>
-    <div class="footer__subscribe">
-      <div class="footer__subscribe-input">
-        <p>Subscribe to get the newest vacancies</p>
-        <input type="email" placeholder="Email*">
+    <section class="footer__container">
+      <div class="footer__contacts">
+        <h3>Cloudy Group</h3>
+        <h4>Call us or send an e-mail:</h4>
+        <a class="footer__phone" href="tel:+12456778833">+124 567 788 33</a>
+        <a class="footer__email" href="mailto:cloudygroup@email.com">cloudygroup@email.com</a>
+        <p>Siddeley St.Docklands 7-23</p>
       </div>
-      <div class="footer__subscribe-button">
-        <button>SUBSCRIBE</button>
+      <div class="footer__nav">
+        <div class="footer__nav-team">
+          <a href="#about" class="footer__nav-item">About</a>
+          <a href="#ourpeople" class="footer__nav-item">Our People</a>
+          <a href="#benefits" class="footer__nav-item">Benefits</a>
+        </div>
+        <div class="footer__nav-job">
+          <a href="#jobopenings" class="footer__nav-item">Open Positions</a>
+          <a href="#ourvalues" class="footer__nav-item">Values</a>
+          <a href="#contacts_form" class="footer__nav-item">Apply</a>
+        </div>
       </div>
-    </div>
-    <div class="footer__copyrights">
+      <div class="footer__subscribe">
+        <form class="footer__subscribe-form">
+          <p>Subscribe to get the newest vacancies</p>
+          <input class="footer__subscribe-email" placeholder="Email*" type="email" required>
+          <input class="footer__subscribe-button" type="submit" value="SUBSCRIBE">
+        </form>
+      </div>
+    </section>
+    <section class="footer__copyrights">
       <hr>
-      <p>&copy; Created by Cloudy Group</p>
-      <p>All rights Reserved</p>
-    </div>
+      <div class="footer__copyrights-spans">
+        <div class="footer__copyrights-spans-left">
+          <span>© Created by Cloudy Group</span>
+        </div>
+        <div class="footer__copyrights-spans-right">
+          <span>All rights Reserved</span>
+        </div>
+      </div>
+    </section>
   </footer>
   <!-- початок Клімович Назар - (Footer)Клімович Назар - (Footer) -->
+  <script src="js/accordion-job-openings.js"></script>
 </body>
 
 </html>

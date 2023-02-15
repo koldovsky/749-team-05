@@ -1,0 +1,19 @@
+.workstyle .workstyle-block .image_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-content {
+    max-width: 150px;
+    max-height:  100px !important;
+    border-radius: 35%;
+    margin: 10px;
+}
+
+.workstyle .workstyle-block img
+{
+    width: 150px;
+    height: 100px;
+    border-radius: 10%;
+}
