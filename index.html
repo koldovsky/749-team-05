@@ -21,19 +21,26 @@
           <span class="header__logo-element-p">p</span>
         </a>
       </div>
-      <ul class="header__menu">
-        <li class="header__menu-item"><a href="#about">About</a></li>
-        <li class="header__menu-item"><a href="#benefits">Benefits</a></li>
-        <li class="header__menu-item"><a href="#ourvalues">Values</a></li>
-        <li class="header__menu-item"><a href="#ourpeople">Our People</a></li>
-        <li class="header__menu-item"><a href="#jobopenings">Open Positions</a></li>
-        <li class="header__nav-breake"></li>
-        <li class="header__menu-item">
-          <a href="#contacts_form" class="header__menu-button">
-            <span>APPLY</span>
-          </a>
-        </li>
-      </ul>
+      <div class="header__burger-menu-wraper active">
+        <div class="header__burger-menu">
+          <span class="header__burger-menu-item"></span>
+        </div>
+      </div>
+      <div class="header__menu-container">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="#about">About</a></li>
+          <li class="header__menu-item"><a href="#benefits">Benefits</a></li>
+          <li class="header__menu-item"><a href="#ourvalues">Values</a></li>
+          <li class="header__menu-item"><a href="#ourpeople">Our People</a></li>
+          <li class="header__menu-item"><a href="#jobopenings">Open Positions</a></li>
+          <li class="header__nav-breake"></li>
+          <li class="header__menu-item">
+            <a href="#contacts_form" class="header__menu-button">
+              <span>APPLY</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <div class="header__banner">
       <div class="header__background-overlay">
@@ -122,12 +129,12 @@
     <!-- початок Оксана Кулеба - (Workstyle) -->
     <section class="workstyle" id="workstyle">
       <div class="workstyle-block">
-        <div> 
+        <div>
           <img class="devider-icon" src="media/devider-icon.png" alt="devider icon">
           <h2 class="workstyle__tittle">You will love our workstyle</h2>
         </div>
         <div style="display:flex; justify-content: center;">
-          <div class="image_wrapper"> 
+          <div class="image_wrapper">
             <div class="image-content">
               <img class="working-place-image workstyle-img" src="./media/working-place.jpg" alt="working-place-image">
             </div>
@@ -154,7 +161,7 @@
           </div>
         </div>
       </div>
-      <div> 
+      <div>
         <h2 class="workstyle__more">More Sweet Perks</h2>
       </div>
       <!--Оксана Кулеба-->
@@ -270,7 +277,7 @@
         <p class="our-people-subtitle">
           Meet the talents that make it all happen
         </p>
-  
+
         <div id="people-carousel" class="carousel">
           <div class="carousel-container">
             <div class="carousel-card active">
@@ -332,13 +339,13 @@
               </p>
             </div>
           </div>
-  
+
           <button class="carousel-button carousel-button-prev">&#10094;</button>
           <button class="carousel-button carousel-button-next">&#10095;</button>
         </div>
       </div>
     </section>
-      <!-- провірити блок -->
+    <!-- провірити блок -->
     <!-- кінець Оксана Сидоренко - (Our people) -->
 
     <!-- початок Наталія Ворончак - (Job) -->
@@ -568,6 +575,7 @@
   </footer>
   <!-- початок Клімович Назар - (Footer)Клімович Назар - (Footer) -->
   <script src="js/accordion-job-openings.js"></script>
+  <script src="js/burger-menu.js"></script>
 </body>
 
 </html>
