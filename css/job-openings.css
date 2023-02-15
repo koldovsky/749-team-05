@@ -1,5 +1,10 @@
 .jobopenings {
     padding: 90px 0;
+    position: relative;
+    display: block;
+    flex-basis: 100%;
+    min-width: 320px;
+    min-height: 889px;
 }
 
 .job_openings__wrapper {
@@ -50,18 +55,19 @@ h4 {
     color: var(--subtitle-color);
 }
 
-.accordion-item {
-    display: block;
-    padding: 20px;
-}
-
 .accordion-item__header::after {
-    content: "\02795";
-    font-size: 32px;
+    content: '+';
+    font-size: 30px;
     position: absolute;
-    right: 16px;
+    right: 25px;
 }
 
 .accordion-item__header.active::after {
-    content: "\2212";
+    content: '-';
+}
+
+.accordion-item__body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-hight 02s ease-out;
 }
