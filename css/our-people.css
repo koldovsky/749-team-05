@@ -1,0 +1,74 @@
+.our-people-container {
+    background-color: var(--light-background-color);
+  }
+  .our-people-subtitle {
+    text-align: center;
+    font-family: "Varela Round";
+    font-size: 20px;
+    box-sizing: border-box;
+    color: var(--text-color);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.carousel-container {
+    position: relative;
+  }
+  
+.carousel-card {
+    display: none;
+  }
+.carousel {
+    display: flex;
+  }
+.carousel-card.active {
+    display: block;
+  }
+.carousel-card-image {
+    object-fit: cover;
+    width: 242px;
+    height: 180px;
+    object-position: 65% 35%;
+    border-radius: 10px;
+    /* background: rgba(0, 95, 183, 0.34); */
+    margin-left: 20%;
+    margin-right: 20%;
+    opacity: 0.7;
+    align-items: center;
+    display: flex;
+  }
+.carousel-card-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+  }
+.carousel-card-description {
+    font-size: 16px;
+    text-align: left;
+    font-family: "Varela Round";
+  }
+.carousel {
+    position: relative;
+    width: 100%;
+ }
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    border: none;
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 24px;
+    font-family: "Varela Round";
+    cursor: pointer;
+ }
+.carousel-button-prev {
+    top: 150px;
+    left: 20%;
+ }
+.carousel-button-next {
+    top: 150px;
+    right: 20%;
+ }
