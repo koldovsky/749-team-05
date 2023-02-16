@@ -3,7 +3,7 @@
   }
   .our-people-subtitle {
     text-align: center;
-    font-family: "Varela Round";
+    font-family: "Varela Round", sans-serif;
     font-size: 20px;
     box-sizing: border-box;
     color: var(--text-color);
@@ -29,7 +29,6 @@
     height: 180px;
     object-position: 65% 35%;
     border-radius: 10px;
-    /* background: rgba(0, 95, 183, 0.34); */
     margin-left: 20%;
     margin-right: 20%;
     opacity: 0.7;
@@ -39,14 +38,14 @@
 .carousel-card-title {
     font-size: 20px;
     line-height: 30px;
-    font-family: "Varela Round";
+    font-family: "Varela Round", sans-serif;
     font-style: normal;
     font-weight: 400;
   }
 .carousel-card-description {
     font-size: 16px;
     text-align: left;
-    font-family: "Varela Round";
+    font-family: "Varela Round", sans-serif;
   }
 .carousel {
     position: relative;
@@ -61,7 +60,7 @@
     background-color: transparent;
     color: var(--text-color);
     font-size: 24px;
-    font-family: "Varela Round";
+    font-family: "Varela Round", sans-serif;
     cursor: pointer;
  }
 .carousel-button-prev {
