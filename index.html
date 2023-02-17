@@ -463,44 +463,44 @@
     <!-- кінець Наталія Ворончак - (Job) -->
 
     <!-- початок Марта Босак - (Contacts_form) -->
-    <section class="contacts_form" id="contacts_form">
-      <div class="divider"></div>
-      <form class="contacts_form">
+    <section class="contacts__form-background" id="contacts__form">
 
-        <h2 class="contacts__form">Apply Now</h2>
+      <div class="contacts-form__container">
+        <img class="devider-icon__form" src="media/devider-icon.png" alt="devider icon">
+        <h2 class="contacts__form_apply">Apply Now</h2>
         <p class="contacts__form-description">Your creativity will be in demand at Cloudy Group!</p>
-        <label class="contacts__form-input" for="user_name"></label>
-        <input type="text" id="user_name" name="user_name" class="contacts__form-input" placeholder="Full name*"
-          required>
+        <form class="contacts_form">
+          <input type="text" id="user_name" name="user_name" class="contacts__form-input" placeholder="Full name*"
+            required>
+          <br>
+          <input type="number" id="phone_number" name="phone_number" class="contacts__form-input"
+            placeholder="Phone number*" required>
+          <br>
+          <input type="email" id="email" name="email" class="contacts__form-input" placeholder="Email*" required>
+          <div>
+            <input type="text" id="text" name="text" class="type__message" placeholder="Type your message*">
+          </div>
 
-        <label class="contacts__form-input" for="phone_number"></label>
-        <input type="number" id="phone_number" name="phone_number" class="contacts__form-input"
-          placeholder="Phone number*" required>
+          <div class="attach__file">
+            <span>Attach File</span>
+          </div>
 
-        <label class="contacts__form-input" for="email"></label>
-        <input type="email" id="email" name="email" class="contacts__form-input" placeholder="Email*" required>
-        <div class="form__field">
-          <input type="text" placeholder="Type your message">
-        </div>
+          <div class="attach_input_upload">
+            <!--<input type="file" id="file" class="attach_input"> (for="file")-->
+            <label><svg width="20" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8.9003.199954c-.2-.2666057-.59993-.2666053-.79993.000001L5.10018 4.19927c-.24727.32961-.01209.80005.39996.80005H7.5v8.99998h2V4.99932h2.0005c.4121 0 .6473-.47044.4-.80005L8.9003.199954zM15.5 8.99932v5.49658c0 .8011-.2 1.0041-1 1.0041h-12c-.8 0-1-.203-1-1.0041V8.99932H0v5.49658c0 1.4019 1.1 2.5034 2.5 2.5034h12c1.4 0 2.5-1.1015 2.5-2.5034V8.99932h-1.5z">
+                </path>
+              </svg>
+              <span>Choose file</span>
+            </label>
+          </div>
 
-        <div class="attach__file">
-          <span>Attach File</span>
-        </div>
-
-        <div class="icon__upload">
-          <svg width="20" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M8.9003.199954c-.2-.2666057-.59993-.2666053-.79993.000001L5.10018 4.19927c-.24727.32961-.01209.80005.39996.80005H7.5v8.99998h2V4.99932h2.0005c.4121 0 .6473-.47044.4-.80005L8.9003.199954zM15.5 8.99932v5.49658c0 .8011-.2 1.0041-1 1.0041h-12c-.8 0-1-.203-1-1.0041V8.99932H0v5.49658c0 1.4019 1.1 2.5034 2.5 2.5034h12c1.4 0 2.5-1.1015 2.5-2.5034V8.99932h-1.5z">
-            </path>
-          </svg>
-        </div>
-
-        <div class="attach_input_upload">Choose file</div>
-
-        <div>
-          <input type="submit" class="contacts__form-submit-input" value="APPLY NOW">
-        </div>
-      </form>
+          <button class="form-button" type="submit">
+            <b>APPLY NOW</b>
+          </button>
+        </form>
+      </div>
     </section>
     <!-- кінець Марта Босак - (Contacts_form) -->
 
