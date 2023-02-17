@@ -27,7 +27,7 @@
     --footer-dark-background-color: rgb(18, 40, 60);
     scroll-behavior: smooth;
     --background-color-form: rgb(255, 255, 255);
-    --color-input-line: rgba(224, 222, 222, 0.877);
+    --color-input-line: rgba(234, 231, 231, 0.926);
 }
 
 .container {
