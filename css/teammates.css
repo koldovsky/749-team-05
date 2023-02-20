@@ -1,0 +1,69 @@
+.teammates {
+    background-image: url(../media/white-background.webp);
+    background-size: auto;
+    padding: 90px 0 60px;
+    width: 100%;
+}
+
+.teammates__title {
+    color:var(--subtitle-color);
+    font-size: 34px;
+    font-weight: 800;
+    padding: 0 0 10px;
+    margin: 35px;
+}
+
+.teammates__cards {
+	display: grid;
+    grid-template-columns: 1fr;
+	justify-content: center;
+}
+
+.teammates__card {
+    background-color: var(--background-color-form);
+    display: block;
+    box-shadow: 0 0 10px var(--box-shadow-lightgrey);
+    border-radius: 10px;
+    text-align: center;
+    margin: 25px;
+}
+
+.teammates__card-description {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 60px 20px 30px;
+    margin: 10px;
+    color: var(--text-color);
+}
+
+.teammates__person-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--teammates-name);
+}
+
+.teammates__position {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--subtitle-color);
+    padding: 0px 0 30px;
+    margin: 40px;
+}
+
+@media (min-width: 768px) {
+    .teammates__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .teammates__cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
