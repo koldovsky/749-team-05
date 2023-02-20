@@ -5,14 +5,16 @@
 .footer__container {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
-    margin: auto;
     gap: 40px;
     font-family: 'Montserrat', sans-serif;
     color: var(--light-background-color);
     text-align: center;
     padding: 80px 20px 30px;
 
+}
+
+.footer__cloudy {
+    color:var(--title-color);
 }
 
 .footer__container h3 {
@@ -40,6 +42,10 @@
     font-weight: 400;
 }
 
+.footer__contacts a:hover {
+    text-decoration: underline;
+}
+
 .footer__contacts p {
     color: var(--footer-accent-text-color);
     font-weight: 400;
@@ -62,6 +68,10 @@
     color: var(--footer-main-text-color);
     font-weight: 300;
     padding-bottom: 15px;
+}
+
+.footer__nav a:hover {
+    color: var(--button-color-hover);
 }
 
 .footer__nav-team {
@@ -121,8 +131,6 @@
 }
 
 .footer__copyrights {
-    max-width: 1200px;
-    margin: auto;
     display: flex;
     flex-direction: column;
     background-color: var(--footer-dark-background-color);

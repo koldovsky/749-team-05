@@ -21,38 +21,36 @@
 
 .teammates__card {
     background-color: var(--background-color-form);
-    display: block;
     box-shadow: 0 0 10px var(--box-shadow-lightgrey);
-    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
+    border-radius: 10px;
     margin: 25px;
 }
 
 .teammates__card-description {
-    font-family: 'Varela Round', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     letter-spacing: 0.8px;
     line-height: 22px;
-    font-weight: 300;
     padding: 60px 20px 30px;
     margin: 10px;
     color: var(--text-color);
 }
 
 .teammates__person-name {
-    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 700;
+    letter-spacing: 0.8px;
     color: var(--teammates-name);
 }
 
 .teammates__position {
-    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 600;
-    color: var(--subtitle-color);
     padding: 0px 0 30px;
     margin: 40px;
+    color: var(--subtitle-color);
 }
 
 @media (min-width: 768px) {
