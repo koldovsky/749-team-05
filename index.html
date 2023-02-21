@@ -537,16 +537,17 @@
             <span>Attach File</span>
           </div>
 
-          <div class="attach_input_upload">
-            <!--<input type="file" id="file" class="attach_input"> (for="file")-->
-            <label><svg width="20" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8.9003.199954c-.2-.2666057-.59993-.2666053-.79993.000001L5.10018 4.19927c-.24727.32961-.01209.80005.39996.80005H7.5v8.99998h2V4.99932h2.0005c.4121 0 .6473-.47044.4-.80005L8.9003.199954zM15.5 8.99932v5.49658c0 .8011-.2 1.0041-1 1.0041h-12c-.8 0-1-.203-1-1.0041V8.99932H0v5.49658c0 1.4019 1.1 2.5034 2.5 2.5034h12c1.4 0 2.5-1.1015 2.5-2.5034V8.99932h-1.5z">
-                </path>
-              </svg>
-              <span>Choose file</span>
-            </label>
-          </div>
+            <div class="attach_input_upload">
+              <input name="file" type="file" id="input__file" class="upload input__file" multiple>
+              <label for="input__file" class="input__file-property">
+                 <span class="input__file-icon"><svg width="20" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M8.9003.199954c-.2-.2666057-.59993-.2666053-.79993.000001L5.10018 4.19927c-.24727.32961-.01209.80005.39996.80005H7.5v8.99998h2V4.99932h2.0005c.4121 0 .6473-.47044.4-.80005L8.9003.199954zM15.5 8.99932v5.49658c0 .8011-.2 1.0041-1 1.0041h-12c-.8 0-1-.203-1-1.0041V8.99932H0v5.49658c0 1.4019 1.1 2.5034 2.5 2.5034h12c1.4 0 2.5-1.1015 2.5-2.5034V8.99932h-1.5z">
+                  </path>
+                </svg></span>
+                 <span class="input__file-text">Choose file</span>
+              </label>
+           </div>
 
           <button class="form-button" type="submit">
             <b>APPLY NOW</b>
