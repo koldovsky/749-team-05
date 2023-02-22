@@ -8,3 +8,8 @@
     max-height:  150px ;
     margin: 10px;
 }
+divider-icon {
+    display: block;
+    margin: auto;
+    height: 8px;
+    width: 60px
