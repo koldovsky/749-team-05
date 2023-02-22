@@ -17,10 +17,12 @@
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
+	padding: 10px;
 }
 .benefits__card-icon {
 	display: block;
 	width: 100px;
+	padding-right: 10px;
 }
 .benefits__card-body {
 	width: 100%;
