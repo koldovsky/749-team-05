@@ -1,7 +1,8 @@
-.workstyle .workstyle-block .image_wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.divider-icon__form {
+    display: block;
+    margin: auto;
+    height: 8px;
+    width: 60px;
 }
 
 .image-content {
