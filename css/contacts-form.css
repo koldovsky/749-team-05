@@ -90,6 +90,7 @@
     opacity: 0;
     visibility: hidden;
     position: absolute;
+    width: 50;
 }
 
 .input__file-icon {
