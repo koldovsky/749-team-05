@@ -1,3 +1,14 @@
+.section_workstyle {
+	padding: 24px;
+}
+
+.workstyle__header {
+	padding: 50px 0;
+}
+.workstyle__title {
+	padding: 26px 0;
+}
+
  .workstyle-block .image_wrapper {
     display: flex;
     justify-content: center;
