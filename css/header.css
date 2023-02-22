@@ -150,6 +150,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../media/header_background.jpeg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .header__background-overlay {
