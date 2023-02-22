@@ -1,10 +1,8 @@
-.divider-icon__form {
-    display: block;
-    margin: auto;
-    height: 8px;
-    width: 60px;
+ .workstyle-block .image_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
 .image-content {
     max-width: 390px;
     max-height:  300px ;
