@@ -72,10 +72,11 @@
     <!-- кінець Микола Цар - (About) -->
 
     <!-- початок Мар'яна Марцинюк - (Benefits) -->
-    <section class="benefits container" id="benefits">
+    <section class="benefits" id="benefits">
+      <div class ='benefits__content container'>
       <div class="benefits__header">
         <img class="divider-icon" src="media/divider-icon.png" alt="divider icon">
-        <h2>Benefits of working here</h2>
+        <h2 class='benefits__title'>Benefits of working here</h2>
       </div>
       <div class="benefits__cards">
         <div class="benefits__card">
@@ -123,6 +124,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
     <!-- кінець Мар'яна Марцинюк - (Benefits) -->
 
@@ -161,31 +163,9 @@
           </div>
         </div>
       </div>
-      <div>
-        <h2 class="workstyle__more">More Sweet Perks</h2>
-      </div>
     </section>
-    <!-- кінець Оксана Кулеба - (Workstyle) --> 
-
-    <!-- початок Наталія Ворончак - (More) --> 
-    <section class="more">
-      <div class="more"> <!--Main content-->
-        <div class="team"><!--Content element-->
-          <h5 class="people__title">Great team</h5>
-        </div>
-        <div class="lunch"><!--Content element-->
-          <h5 class="sweet__title">Free lunch</h5>
-        </div>
-        <div class="office"><!--Content element-->
-          <h5 class="sweet__title">Beautiful office</h5>
-        </div>
-        <div class="ball"><!--Content element-->
-          <h5 class="sweet__title">Outdoor activities</h5>
-        </div>
-      </div>
-    </section>
-    <!-- кінець Наталія Ворончак - (More) -->
-
+    <!-- кінець Оксана Кулеба - (Workstyle) -->
+    
     <!-- початок Микола Соколовський - (Ourvalues) -->
     <section class="ourvalues" id="ourvalues">
       <div class="divider"></div>
@@ -261,7 +241,7 @@
     <section class="section__in-action container">
       <div class="in-action__header">
         <img class="divider-icon" src="media/divider-icon.png" alt="divider icon">
-        <h2>Cloudy Group in Action</h2>
+        <h2 class="in-action__title">Cloudy Group in Action</h2>
       </div>
       <div class="in-action__body">
         <div class="in-action__background">
@@ -525,8 +505,8 @@
           <input type="text" id="user_name" name="user_name" class="contacts__form-input" placeholder="Full name*"
             required>
           <br>
-          <input type="number" id="phone_number" name="phone_number" class="contacts__form-input"
-            placeholder="Phone number*" required>
+          <input id="phone_number" type="tel" name="phone_number" class="contacts__form-input"
+            placeholder="Phone number*" minlength="4" maxlength="8" required>
           <br>
           <input type="email" id="email" name="email" class="contacts__form-input" placeholder="Email*" required>
           <div>
@@ -537,16 +517,17 @@
             <span>Attach File</span>
           </div>
 
-          <div class="attach_input_upload">
-            <!--<input type="file" id="file" class="attach_input"> (for="file")-->
-            <label><svg width="20" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8.9003.199954c-.2-.2666057-.59993-.2666053-.79993.000001L5.10018 4.19927c-.24727.32961-.01209.80005.39996.80005H7.5v8.99998h2V4.99932h2.0005c.4121 0 .6473-.47044.4-.80005L8.9003.199954zM15.5 8.99932v5.49658c0 .8011-.2 1.0041-1 1.0041h-12c-.8 0-1-.203-1-1.0041V8.99932H0v5.49658c0 1.4019 1.1 2.5034 2.5 2.5034h12c1.4 0 2.5-1.1015 2.5-2.5034V8.99932h-1.5z">
-                </path>
-              </svg>
-              <span>Choose file</span>
-            </label>
-          </div>
+            <div class="attach_input_upload">
+              <input name="file" type="file" id="input__file" class="upload input__file" multiple>
+              <label for="input__file" class="input__file-property">
+                 <span class="input__file-icon"><svg width="20" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M8.9003.199954c-.2-.2666057-.59993-.2666053-.79993.000001L5.10018 4.19927c-.24727.32961-.01209.80005.39996.80005H7.5v8.99998h2V4.99932h2.0005c.4121 0 .6473-.47044.4-.80005L8.9003.199954zM15.5 8.99932v5.49658c0 .8011-.2 1.0041-1 1.0041h-12c-.8 0-1-.203-1-1.0041V8.99932H0v5.49658c0 1.4019 1.1 2.5034 2.5 2.5034h12c1.4 0 2.5-1.1015 2.5-2.5034V8.99932h-1.5z">
+                  </path>
+                </svg></span>
+                 <span class="input__file-text">Choose file</span>
+              </label>
+           </div>
 
           <button class="form-button" type="submit">
             <b>APPLY NOW</b>

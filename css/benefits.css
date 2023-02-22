@@ -1,9 +1,12 @@
-.benefits__header {
-	padding: 65px;
-}
 .benefits {
 	padding: 24px;
 	background-color: var(--light-background-color);
+}
+.benefits__header {
+	padding: 50px 0;
+}
+.benefits__title{
+	padding: 26px 0;
 }
 .benefits__card {
 	display: flex;
@@ -14,10 +17,12 @@
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
+	padding: 10px;
 }
 .benefits__card-icon {
 	display: block;
 	width: 100px;
+	padding-right: 10px;
 }
 .benefits__card-body {
 	width: 100%;

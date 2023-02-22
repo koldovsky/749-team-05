@@ -150,6 +150,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../media/header_background.jpeg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .header__background-overlay {
@@ -244,7 +245,7 @@
     .header__nav {
         display: flex;
         justify-content: space-between;
-        padding: 30px 40px;
+        padding: 0 40px;
         max-width: 1250px;
         margin: auto;
         min-height: auto;
@@ -267,6 +268,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-end;
+        padding: 30px 0;
     }
 
     .header__menu-item {

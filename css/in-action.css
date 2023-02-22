@@ -2,12 +2,15 @@
 	padding: 24px;
 }
 .in-action__header {
-	padding: 65px;
+	padding: 50px 0;
+}
+.in-action__title {
+	padding: 26px 0;
 }
 .in-action__body {
 	display: flex;
 	justify-content: center;
-	padding: 65px;
+	
 }
 .in-action__background {
 	position: relative;
