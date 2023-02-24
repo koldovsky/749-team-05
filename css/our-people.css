@@ -9,6 +9,7 @@
     color: var(--text-color);
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 40px;
 }
 .carousel-container {
     position: relative;
