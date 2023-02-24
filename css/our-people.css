@@ -13,6 +13,10 @@
 .carousel-container {
     position: relative;
   }
+.people-carousel {
+    display: flex;
+    justify-content: center;
+  }
   .our-people-carousel__cards h3 {
     font-size: 20px;
     line-height: 30px;
