@@ -34,9 +34,6 @@
     font-family: "Varela Round", sans-serif;
   }
   .carousel-button {
-    position: absolute;
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
     display: flex;
     border: none;
     background-color: transparent;
@@ -48,10 +45,14 @@
   }
   .our-people-carousel-button-prev {
     left: 0;
+    position: relative;
+    top: 200px;
   }
 
   .our-people-carousel-button-next {
     right: 0;
+    position: relative;
+    top: 200px;
   }
   .our-people-carousel__cards {
     display: flex;
