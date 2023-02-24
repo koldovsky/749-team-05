@@ -1,5 +1,5 @@
 .jobopenings {
-    padding: 90px 0 45px;
+    padding: 90px 0px 45px;
     position: relative;
     display: block;
     flex-basis: 100%;
@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     align-content: center;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 .accordion {
@@ -25,7 +25,7 @@ h2 {
     color: var(--subtitle-color);
     font-size: 34px;
     font-weight: 800;
-    padding: 0 0 10px;
+    padding: 0px 0px 10px;
     margin: 25px 35px;
 }
 
@@ -79,7 +79,7 @@ h4 {
 }
 
 .accordion-item__body {
-    max-height: 0;
+    max-height: 0px;
     overflow: hidden;
     transition: max-hight 02s ease-out;
 }
@@ -98,6 +98,6 @@ h4 {
 
 hr {
     width: 100;
-    margin-left: 0;
+    margin-left: 0px;
     border: 0.5px solid hsla(0, 0%, 50%, 0.359);
 }
