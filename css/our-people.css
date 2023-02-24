@@ -1,5 +1,7 @@
 .our-people-container {
     background-color: var(--light-background-color);
+    padding-top: 70px;
+    padding-bottom: 60px;
   }
   .our-people-subtitle {
     text-align: center;
