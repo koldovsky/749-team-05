@@ -97,7 +97,7 @@ h4 {
 }
 
 hr {
-    width: 100;
+    width: 100%;
     margin-left: 0;
     border: 0.5px solid hsla(0, 0%, 50%, 0.359);
 }
