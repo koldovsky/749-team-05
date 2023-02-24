@@ -22,7 +22,7 @@
     justify-content: center;
   }
   .our-people-carousel__cards h3 {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 30px;
     font-family: "Varela Round", sans-serif;
     font-style: normal;
@@ -33,6 +33,8 @@
     font-size: 16px;
     text-align: left;
     font-family: "Varela Round", sans-serif;
+    padding-top: 30px;
+    font-weight: 100;
   }
   .carousel-button {
     display: flex;
