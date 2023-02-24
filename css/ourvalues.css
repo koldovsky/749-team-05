@@ -1,3 +1,6 @@
 .ourvalues{
-background-image: url('../media/ourvalues_background.webp');
+    background-image: url(../media/white-background.webp);
+    background-size: auto;
+    padding: 90px 0 60px;
+    width: 100%;
 }
