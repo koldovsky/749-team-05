@@ -58,7 +58,9 @@
   .our-people-carousel__cards {
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    align-items: flex-start;
     width: 80%; 
     overflow: hidden;
   }
