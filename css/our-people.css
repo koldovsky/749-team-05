@@ -28,8 +28,8 @@
   }
   .carousel-button {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
     display: flex;
     border: none;
     background-color: transparent;
