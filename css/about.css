@@ -28,7 +28,7 @@
     text-align: center;
     margin-top: 50px;
     vertical-align: baseline;
-    height: 297px;
+    padding-top: 50px;
 }
 
 @media (min-width: 425px) {

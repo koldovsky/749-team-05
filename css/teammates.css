@@ -1,0 +1,67 @@
+.teammates {
+    background-image: url(../media/white-background.webp);
+    background-size: auto;
+    padding: 90px 0 60px;
+    width: 100%;
+}
+
+.teammates__title {
+    color:var(--subtitle-color);
+    font-size: 34px;
+    font-weight: 800;
+    padding: 0 0 10px;
+    margin: 25px 35px;
+}
+
+.teammates__cards {
+	display: grid;
+    grid-template-columns: 1fr;
+	justify-content: center;
+}
+
+.teammates__card {
+    background-color: var(--background-color-form);
+    box-shadow: 0 0 10px var(--box-shadow-lightgrey);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.teammates__card-description {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 22px;
+    padding: 60px 20px 30px;
+    margin: 10px;
+    color: var(--text-color);
+}
+
+.teammates__person-name {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: var(--teammates-name);
+}
+
+.teammates__position {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px 0 30px;
+    margin: 40px;
+    color: var(--subtitle-color);
+}
+
+@media (min-width: 768px) {
+    .teammates__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .teammates__cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

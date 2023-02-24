@@ -1,0 +1,16 @@
+.more .more-block .image_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image-content {
+    max-width: 150px;
+    max-height:  150px ;
+    margin: 10px;
+}
+divider-icon {
+    display: block;
+    margin: auto;
+    height: 8px;
+    width: 60px
+}

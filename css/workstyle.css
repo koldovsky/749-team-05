@@ -1,22 +1,20 @@
-.workstyle .workstyle-block .image_wrapper {
-    display: flex;
+
+.image_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    flex-wrap: wrap;
+    grid-gap: 5px;
 }
 
 .image-content {
     max-width: 390px;
-    max-height:  300px ;
-    border-radius: 35%;
+    max-height: 300px;
+    border-radius: 5%;
     margin: 10px;
+    overflow: hidden;
 }
 
-.workstyle-block {
-    padding: 20px;
-}
-
-.workstyle .workstyle-block .workstyle-img
-{
+.workstyle .workstyle-block .workstyle-img {
     width: 100%;
     height: 100%;
     border-radius: 10%;

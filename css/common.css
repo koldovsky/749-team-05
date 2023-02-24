@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: 'Montserrat', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: 'Varela Round', sans-serif; */
 
 * {
@@ -26,6 +26,10 @@
     --footer-email-input-color: rgba(255, 255, 255, 0.11);
     --footer-dark-background-color: rgb(18, 40, 60);
     scroll-behavior: smooth;
+    --background-color-form: rgb(255, 255, 255);
+    --color-input-line: rgba(234, 231, 231, 0.926);
+    --teammates-name: rgb(7, 131, 247);
+    --box-shadow-lightgrey: rgb(234, 234, 234);
 }
 
 .container {
@@ -55,7 +59,7 @@ h3 {
     color: var(--subtitle-color);
 }
 
-.devider-icon {
+.divider-icon {
     display: block;
     margin: auto;
     height: 8px;
