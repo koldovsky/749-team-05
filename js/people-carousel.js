@@ -1,42 +1,42 @@
 (function () {
         const cards = [
           {
-            img: "../media/peopleLorry.jpeg",
+            img: "media/peopleLorry.jpeg",
             alt: "Lorry",
             title: "Lorry, CEO",
             description:
               "By far the best part of my job is building relationships within the company. This is truly a career that is built on relationships and people. I love the enthusiasm and positivity that my team brings to the table every single day.",
           },
           {
-            img: "../media/peopleLorry1.jpeg",
+            img: "media/peopleLorry1.jpeg",
             alt: "Lorry1",
             title: "Lorry, CEO",
             description:
               "I joined the organization as part of the acquisition of Springleaf Financial in 2015. It has been both the most challenging and rewarding roles in my career.",
           },
           {
-            img: "../media/peopleLinda.jpeg",
+            img: "media/peopleLinda.jpeg",
             alt: "Linda",
             title: "Linda, Branch Manager",
             description:
               "Cloudy Group treats me like more than an employee and cares about my development. My direct supervisor provides me with constructive feedback and puts me in situations that highlight my strengths and personal growth.",
           },
           {
-            img: "../media/peopleAnna.jpeg",
+            img: "media/peopleAnna.jpeg",
             alt: "Anna",
             title: "Anna, Loan Specialist",
             description:
               "Throughout my career at Cloudy Group, I have developed many skills needed to grow not only as a team member but as a person. The atmosphere is fun, outgoing, and competitive.",
           },
           {
-            img: "../media/peopleFulu.jpeg",
+            img: "media/peopleFulu.jpeg",
             alt: "Fulu",
             title: "Fulu, Branch Manager",
             description:
               "In 1995, Samsung became our main supplier of high-quality tech products. Our branch management department yet again proved its ability to strike highly impactful deals with the big league.",
           },
           {
-            img: "../media/peopleLucie.jpeg",
+            img: "media/peopleLucie.jpeg",
             alt: "Lucie",
             title: "Lucie, Strategy Director",
             description:
