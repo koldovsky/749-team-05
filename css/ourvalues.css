@@ -54,7 +54,7 @@
 
 .header__agility {
     font-size: 22px;
-    font-weight: 700
+    font-weight: 700;
     letter-spacing: 0.8px;
     color: var(--teammates-name);
 }
