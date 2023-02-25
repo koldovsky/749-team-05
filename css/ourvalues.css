@@ -20,13 +20,15 @@
     letter-spacing: 0.8px;
     line-height: 22px;
     color: var(--text-color);
+    vertical-align: baseline;
+    text-align: center;
 }
 
 .header__passion {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: black;
+    color: rgb(18, 40, 60);
 }
 
 .header__employees-care-info {
@@ -36,13 +38,14 @@
     line-height: 22px;
     color: var(--text-color);
     vertical-align: baseline;
+    text-align: center;
 }
 
 .header__employees-care {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: black;
+    color: rgb(18, 40, 60);
 }
 
 .header__unity-in-diversity-info {
@@ -52,13 +55,14 @@
     line-height: 22px;
     color: var(--text-color);
     vertical-align: baseline;
+    text-align: center;
 }
 
 .header__unity-in-diversity {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: black;
+    color: rgb(18, 40, 60);
 }
 
 .header__autonomy-info {
@@ -68,13 +72,14 @@
     line-height: 22px;
     color: var(--text-color);
     vertical-align: baseline;
+    text-align: center;
 }
 
 .header__autonomy {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: black;
+    color: rgb(18, 40, 60);
 }
 
 .header__agility-info {
@@ -84,13 +89,14 @@
     line-height: 22px;
     color: var(--text-color);
     vertical-align: baseline;
+    text-align: center;
 }
 
 .header__agility {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: black;
+    color: rgb(18, 40, 60);
 }
 
 .header__talent-growth-info {
@@ -100,6 +106,7 @@
     line-height: 22px;
     color: var(--text-color);
     vertical-align: baseline;
+    text-align: center;
 }
 
 .header__talent-growth {
