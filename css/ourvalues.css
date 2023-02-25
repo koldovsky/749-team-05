@@ -10,8 +10,9 @@
     box-shadow: 0 0 10px var(--box-shadow-lightgrey);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 25px;
+    padding: 30px;
 }
 
 .header__passion-info {
@@ -29,6 +30,7 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     color: rgb(18, 40, 60);
+    padding: 25px;
 }
 
 .header__employees-care-info {
@@ -39,6 +41,7 @@
     color: var(--text-color);
     vertical-align: baseline;
     text-align: center;
+
 }
 
 .header__employees-care {
@@ -46,6 +49,7 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     color: rgb(18, 40, 60);
+    padding: 25px;
 }
 
 .header__unity-in-diversity-info {
@@ -63,6 +67,7 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     color: rgb(18, 40, 60);
+    padding: 25px;
 }
 
 .header__autonomy-info {
@@ -80,6 +85,7 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     color: rgb(18, 40, 60);
+    padding: 25px;
 }
 
 .header__agility-info {
@@ -97,6 +103,7 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     color: rgb(18, 40, 60);
+    padding: 25px;
 }
 
 .header__talent-growth-info {
@@ -114,6 +121,7 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     color: black;
+    padding: 25px;
 }
 
 @media (min-width: 768px) {
