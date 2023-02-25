@@ -26,7 +26,7 @@
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: black
+    color: black;
 }
 
 .header__employees-care-info {
@@ -35,13 +35,14 @@
     letter-spacing: 0.8px;
     line-height: 22px;
     color: var(--text-color);
+    vertical-align: baseline;
 }
 
 .header__employees-care {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: var(--teammates-name);
+    color: black;
 }
 
 .header__unity-in-diversity-info {
@@ -50,13 +51,14 @@
     letter-spacing: 0.8px;
     line-height: 22px;
     color: var(--text-color);
+    vertical-align: baseline;
 }
 
 .header__unity-in-diversity {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: var(--teammates-name);
+    color: black;
 }
 
 .header__autonomy-info {
@@ -65,13 +67,14 @@
     letter-spacing: 0.8px;
     line-height: 22px;
     color: var(--text-color);
+    vertical-align: baseline;
 }
 
 .header__autonomy {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: var(--teammates-name);
+    color: black;
 }
 
 .header__agility-info {
@@ -80,13 +83,14 @@
     letter-spacing: 0.8px;
     line-height: 22px;
     color: var(--text-color);
+    vertical-align: baseline;
 }
 
 .header__agility {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: var(--teammates-name);
+    color: black;
 }
 
 .header__talent-growth-info {
@@ -95,13 +99,14 @@
     letter-spacing: 0.8px;
     line-height: 22px;
     color: var(--text-color);
+    vertical-align: baseline;
 }
 
 .header__talent-growth {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: var(--teammates-name);
+    color: black;
 }
 
 @media (min-width: 768px) {
