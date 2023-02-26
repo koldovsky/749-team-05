@@ -777,11 +777,12 @@
         </div>
       </div>
       <div class="footer__subscribe">
-        <form class="footer__subscribe-form">
+        <form class="footer__subscribe-form"  id="footer__subscribe-form" action="api/subscribe" method="post">
           <p>Subscribe to get the newest vacancies</p>
           <input class="footer__subscribe-email" placeholder="Email*" type="email" required>
-          <input class="footer__subscribe-button" type="submit" value="SUBSCRIBE">
+          <input class="footer__subscribe-button" id="footer__subscribe-button-id" type="submit" value="SUBSCRIBE">
         </form>
+        <p id="subscribe-form-status"></p>
       </div>
     </section>
     <section class="footer__copyrights container">
@@ -800,6 +801,7 @@
   <script src="js/accordion-job-openings.js"></script>
   <script src="js/burger-menu.js"></script>
   <script src="js/people-carousel.js"></script>
+  <script src="js/footer-subscribe-form.js"></script>
 </body>
 
 </html>
