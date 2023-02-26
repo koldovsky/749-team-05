@@ -6,6 +6,10 @@
     min-width: 320px;
 }
 
+.jobopenings__title {
+    padding-top: 26px;
+}
+
 .jobopenings__wrapper {
     display: flex;
     flex-direction: column;
