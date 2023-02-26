@@ -1,5 +1,5 @@
 (function () {
-    const form = document.getElementById("footer__subscribe-form");
+    const form = document.getElementById("footer__subscribe-form-id");
     const button = document.getElementById("footer__subscribe-button-id");
   
     async function handleSubmit(event) {

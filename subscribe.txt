@@ -2,3 +2,4 @@
 {"email":"red@color.test"}
 {"email":"green@color.test"}
 {"email":"test@test"}
+{"email":"test-id@test.com"}
