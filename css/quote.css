@@ -61,15 +61,6 @@
     position: absolute;
 }
 
-.vertical__line:after {
-    content: " ";
-    background: #ffffff;
-    width: 1px;
-    height: 400px;
-    right: -15px;
-    position: absolute;
-}
-
 @media (min-width: 380px) {
     .vertical__line:before {
         height: 370px;

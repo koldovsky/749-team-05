@@ -1,5 +1,7 @@
+#ourpeople {
+  background-color: var(--light-background-color);
+}
 .our-people-container {
-    background-color: var(--light-background-color);
     padding-top: 70px;
     padding-bottom: 60px;
   }
