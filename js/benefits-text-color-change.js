@@ -14,9 +14,10 @@
 	}
 
 	benefitsText.forEach(text => {
-		text.addEventListener('pointerenter', changeColor)
+    text.addEventListener('pointerenter', changeColor)
+    text.addEventListener('pointerleave', colourDefault)
+    text.addEventListener('touchstart', changeColor)
+    text.addEventListener('touchend', colourDefault)
 	})
-	benefitsText.forEach(text => {
-		text.addEventListener('pointerleave', colourDefault)
-	})
+
 })()
