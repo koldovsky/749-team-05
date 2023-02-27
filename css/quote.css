@@ -1,12 +1,11 @@
 
 .quote__wrap {
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(33, 123, 204, 0.9), rgba(33, 123, 204, 0.9)),
+    background-image: linear-gradient(90deg, rgba(0, 95, 183, 0.95), rgba(3, 97, 185, 0.7)),
         url(../media/quote_img.jpg);
+    background-position: 50% 0%;
     background-size: cover;
-
 }
-
 
 .quote__text {
     color: var(--header-banner-text-color);
@@ -14,11 +13,13 @@
     font-weight: 400;
     font-size: 20px;
     text-align: left;
-    padding-top: 20px;
+    line-height: 140%;
+    padding-bottom: 30px;
 }
 
 .quote__content {
-    width: 50%;
+    width: 90%;
+    padding-left: 10px;
 }
 
 .author {
@@ -28,12 +29,15 @@
     font-size: 12px;
     text-align: left;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 10px;
 }
 
 .quote__icon {
-    width: 40px;
+    width: 50px;
     height: 40px;
+    padding-bottom: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .content__wrap {
@@ -44,64 +48,85 @@
 
 }
 
-
-
 .vertical__line {
     padding-left: 20px;
     position: relative;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 .vertical__line:before {
     content: " ";
-    background: #8fc8f9;
-    width: 1px;
-    height: 400px;
+    background: #508cc0;
+    width: 0.5px;
+    height: 320px;
     left: 10px;
     position: absolute;
 }
 
-@media (min-width: 380px) {
-    .vertical__line:before {
-        height: 370px;
-    }
-
-    .vertical__line:after {
-        height: 370px;
-    }
-}
-
-@media (min-width: 430px) {
-    .vertical__line:before {
-        height: 330px;
-    }
-
-    .vertical__line:after {
-        height: 330px;
-    }
-}
-
 @media (min-width: 768px) {
     .vertical__line:before {
-        height: 240px;
-    }
-
-    .vertical__line:after {
-        height: 240px;
+        height: 230px;
     }
 
     .content__wrap {
-        padding-left: 150px;
+        padding-left: 30px;
+    }
+
+    .quote__content {
+        width: 65%;
+
     }
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .vertical__line:before {
-        height: 180px;
+        height: 230px;
     }
 
-    .vertical__line:after {
-        height: 160px;
+    .quote__content {
+        width: 70%;
+        margin-bottom: 30px;
+
     }
+
+    .quote__wrap {
+        background-position: 0% 50%;
+    }
+
+    .quote__text {
+        font-size: 1.5em;
+    }
+
+    .quote__text {
+        padding-bottom: 0;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .author {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .vertical__line:before {
+        height: 210px;
+    }
+
+    .quote__content {
+        width: 75%;
+    }
+
+    .author {
+        padding-top: 0;
+    }
+
+    .content__wrap {
+        padding-left: 0;
+    }
+
 }
