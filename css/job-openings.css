@@ -59,6 +59,7 @@ h4 {
     display: flex;
     align-items: center;
     position: relative;
+    justify-content: space-between;
 }
 
 .accordion-item__body-content {
