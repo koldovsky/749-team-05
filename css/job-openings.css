@@ -18,7 +18,7 @@
 }
 
 .accordion {
-    width: 75%;
+    width: 70%;
     padding-top: 25px;
     margin: 30px auto;
 }
@@ -43,7 +43,7 @@ h4 {
     line-height: 31px;
     box-sizing: border-box;
     vertical-align: baseline;
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 
