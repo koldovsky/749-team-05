@@ -82,8 +82,7 @@ h4 {
     content: '+';
     font-size: 37px;
     font-weight: 300;
-    position: absolute;
-    right: 1px;
+    float: right;
 }
 
 .accordion-item__header.active::after {
