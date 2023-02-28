@@ -1,5 +1,5 @@
 .jobopenings {
-    padding: 90px 0 60px;
+    padding: 60px 0;
     width: 100%;
 }
 
@@ -14,7 +14,6 @@
     flex-wrap: wrap;
     align-content: center;
     box-sizing: border-box;
-    padding: 0 20px
 }
 
 .accordion {
