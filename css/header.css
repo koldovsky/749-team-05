@@ -252,16 +252,10 @@
     min-height: auto;
   }
 
-/*   .header__burger-menu-wraper {
-    position: absolute;
-    left: -10000px;
+  .header__burger-menu-wraper {
+    display: none;
   }
-
-  .header__menu-container {
-    position: relative;
-    left: 0px;
-  } */
-
+  
   .header__menu {
     display: flex;
     margin: 0px -20px;
