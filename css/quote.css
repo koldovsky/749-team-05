@@ -23,6 +23,7 @@
 }
 
 .author {
+    width: max-content;
     color: var(--header-banner-text-color);
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
