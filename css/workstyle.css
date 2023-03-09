@@ -9,6 +9,9 @@
     grid-gap: 5px;
 }
 
+.workstyle__tittle {
+    padding-top: 26px
+}
 .image-content {
     max-width: 390px;
     max-height: 300px;
