@@ -27,9 +27,11 @@
     --footer-dark-background-color: rgb(18, 40, 60);
     scroll-behavior: smooth;
     --background-color-form: rgb(255, 255, 255);
-    --color-input-line: rgba(234, 231, 231, 0.926);
+    --color-input-line: rgba(99, 99, 99, 0.926);
     --teammates-name: rgb(7, 131, 247);
     --box-shadow-lightgrey: rgb(234, 234, 234);
+    --color-line-form: rgba(191, 185, 183, 0.114);
+    --for-file-color:rgba(23, 22, 22, 0.781);
 }
 
 .container {

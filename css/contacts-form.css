@@ -13,7 +13,6 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    text-align: center;
     background-color: var(--background-color-form);
     border-radius: 20px;
     padding-top: 65px;
@@ -40,21 +39,31 @@
     font-size: 16px;
     margin-top: 31px;
     text-align: center;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contacts__form-input {
-    background-color: var(--color-input-line);
     border: none;
     margin: 4px 0px 0px;
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
     padding: 19px 30px;
     width: 100%;
     display: block;
     border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-input-line);
 }
 
+.form-control input {
+     background-color: var(--color-line-form);
+     border: 0;
+     border-bottom: 2px var(--social-icons-color) solid;
+     display: block;
+     width: 100%;
+     padding: 15px 0;
+     font-size: 18px;
+     font-family: 'Montserrat', sans-serif;
+}
+   
 .form-button {
     padding: 14px 20px;
     font-size: 14px;
@@ -72,18 +81,19 @@
 
 .attach__file {
     text-align: left;
-    margin-bottom: 16px;
-    font-family: 'Varela Round', sans-serif;
-    color: var(--subtitle-color);
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--for-file-color);
     margin-top: 15px;
     width: 100%;
+    font-size: 20px;
 }
 
 .attach_input_upload {
     text-align: left;
     margin-bottom: 16px;
-    font-family: 'Varela Round', sans-serif;
-    color: var(--subtitle-color);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--for-file-color);
     display: grid;
     margin-top: -5px;
 }
@@ -116,11 +126,17 @@
     border: none;
     margin: 28px -2px 12px;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 60px 29px;
     width: 100%;
     display: block;
     border-radius: 6px;
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: var(--teammates-name);
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (min-width: 320px) {

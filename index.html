@@ -693,22 +693,30 @@
         <img class="divider-icon__form" src="media/divider-icon.png" alt="divider icon">
         <h2 class="contacts__form_apply">Apply Now</h2>
         <p class="contacts__form-description">Your creativity will be in demand at Cloudy Group!</p>
-        <form class="contacts_form">
-          <input type="text" id="user_name" name="user_name" class="contacts__form-input" placeholder="Full name*"
+        <form class="contacts__form-input">
+          <div class="form-control"> 
+          <input type="text" id="username" name="user_name" class="contacts__form-input"
             required>
+            <label for="username">Full name*</label>
+            </div>
           <br>
-          <input id="phone_number" type="tel" name="phone_number" class="contacts__form-input"
-            placeholder="Phone number*" minlength="4" maxlength="8" required>
-          <br>
-          <input type="email" id="email" name="email" class="contacts__form-input" placeholder="Email*" required>
-          <div>
-            <input type="text" id="text" name="text" class="type__message" placeholder="Type your message*">
+          <div class="form-control">
+          <input id="phone_number" type="text" name="phone_number" class="contacts__form-input"
+            minlength="4" maxlength="8" required>
+            <label for="phone_number">Phone number*</label>
           </div>
-
+          <br>
+          <div class="form-control">
+          <input type="email" id="email" name="email" class="contacts__form-input" required>
+          <label for="email">Email*</label>
+        </div>
+          <div class="form-control">
+            <input type="text" id="text" name="text" class="type__message" required>
+            <label for="text">Type your message*</label>
+          </div>
           <div class="attach__file">
             <span>Attach File</span>
           </div>
-
           <div class="attach_input_upload">
             <input name="file" type="file" id="input__file" class="upload input__file" multiple>
             <label for="input__file" class="input__file-property">
@@ -720,7 +728,6 @@
               <span class="input__file-text">Choose file</span>
             </label>
           </div>
-
           <button class="form-button" type="submit">
             <b>APPLY NOW</b>
           </button>
@@ -806,5 +813,6 @@
   <script src="js/footer-subscribe-form.js"></script>
   <script src="js/quote.js"></script>
 </body>
+  <script src="js/contacts-form.js"></script>
 
 </html>
